@@ -39,8 +39,8 @@ div.button {
     right: calc(52px + 120px - 112.5px);
 }
 div.popup {
-    width: 265px;
-    height: 236px;
+    width: 365px;
+    height: 336px;
     border-radius: 8px;
     border: 1px solid #DEE2E6;
     background-color: white;
@@ -49,4 +49,64 @@ div.popup {
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+div.X_button {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    left: 334px;
+    top: 5px;
+}
+div.X_button img {
+    width: 100%;
+    height: 100%;
+}
+div.feedback_box {
+    width: 300px;
+    height: 115px;
+    background-color: #E5E5E5;
+    position: relative;
+    top: 10px;
+    left : 50%;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+}
+div.feddback_text {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left : 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Inter', sans-serif;
+    line-height: 7px;
+    top: 10px;
+}
+div.text_box{
+    width: 300px;
+    height: 50px;
+    top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#input, #button {
+  width: 300px;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#input {
+  border: 1px solid #ACACAC;
+  margin-bottom: 10px;
+}
+
+#button {
+  background-color: #4F4F4F;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
