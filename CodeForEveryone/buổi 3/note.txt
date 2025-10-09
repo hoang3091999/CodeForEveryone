@@ -1,0 +1,1 @@
+có thuộc tính trong css là position -> cách thể hiện 1 bõ model có vị trí 

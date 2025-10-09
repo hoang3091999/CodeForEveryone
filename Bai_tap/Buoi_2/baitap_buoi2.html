@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2</title>
+    <style>
+        .box{
+            flex: 1;
+            width: 200px;
+            height: 250px;
+            padding: 20px;
+            /* border: 2px solid black; */
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 60px;
+        }
+        .box img{
+            width: 50px;
+            height: 50px;
+        }
+        .box h3{
+            font-weight: bold;
+            font-size: 24px;           
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .box p{
+            font-size: 20px;
+            line-height: 1.5;
+            color: #808080;
+            font-family: 'Inter', sans-serif;
+        }
+        .box a{
+            font-size: 20px;
+            text-decoration: none;
+            color: gray;
+            font-weight: bold;
+            font-family: 'inter', sans-serif;
+        }
+        .box_img{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box_img">
+                <img src="Person.png" alt="" >
+            </div>
+            <h3>Expert instructure</h3>
+            <p >Empower yourself with the knowledge and skills gained...</p>
+            <a href="#">Learn More &#8594;</a>
+        </div>
+        <div class="box">
+            <div class="box_img">
+                <img src="MonitorPlay.png" alt="" >
+            </div>
+            <h3>Interactive Learning</h3>
+            <p >Empower yourself with the knowledge and skills gained...</p>
+            <a href="#">Learn More &#8594;</a>
+        </div>
+        <div class="box">
+            <div class="box_img">
+                <img src="LockKeyOpen.png" alt="" >
+            </div>
+            <h3>Lifetime Access</h3>
+            <p >Empower yourself with the knowledge and skills gained...</p>
+            <a href="#">Learn More &#8594;</a>
+        </div>
+        <div class="box">
+            <div class="box_img">
+                <img src="certificate.png" alt="" >
+            </div>
+            <h3>Verified Certificate</h3>
+            <p >Empower yourself with the knowledge and skills gained...</p>
+            <a href="#">Learn More &#8594;</a>
+        </div>
+    </div>
+</body>
+</html>

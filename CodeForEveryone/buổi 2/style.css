@@ -1,0 +1,15 @@
+/* Thứ tự ưu tiên inline, id, class, external */
+/* càng chi tiết càng ưu tiên + lệnh sau sẽ đc áp dụng */
+h1 {
+    /* viết tắt chú thích bằng ctr + / */
+    color:red;
+}
+#myID {
+    color: blue;
+}
+p.text {
+    color: green;
+}
+.text {
+    color: orange;
+}

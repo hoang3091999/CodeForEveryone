@@ -1,6 +1,0 @@
-html
-head
-meta (thẻ mở)
-title
-body
-tất cả nội dung muốn hiển thị phải viết trong body của html
