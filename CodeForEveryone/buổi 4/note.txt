@@ -1,0 +1,16 @@
+flex : điều phối các phần tử con
+flex-direction:
+    row : hàng ngang
+    row-reverse: hàng ngang đảo ngược
+    column:
+    column-reverse:
+justify-content:
+    flex-start: căn về đầu
+    flex-end: căn về sau
+    center: căn giữa
+    space-between: khoảng cách giữa các phần tử bằng nhau
+    space-around: khoảng cách xung quanh các phần tử bằng nhau
+    space-evenly: Khoảng cách của các phần từ và cách lề bằng nhau
+https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+allign-item:
+    
