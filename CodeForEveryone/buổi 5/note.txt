@@ -1,0 +1,25 @@
+Grid trong css
++ mạng lưới tư duy theo cột (trong thẻ table tư duy theo hàng)
+
+grid-template-column: 100px 100px 100px thuộc tính quy định số lượng, kích thước cột - trên 1 hàng
+
+___________Lesson 5: responsive, tailwind and AI
+
+mong muốn giao diện linh hoạt thích ứng với nhiều thiết bị khác nhau
+
+tư tưởng để cài đặt được sự thích ứng dựa trên kích thước thiết bị
++ dựa vào kích thước (đối với web) chỉ cần dựa vào chiều ngang (width)
++ tư duy làm responsive như thế nào (tư duy phổ biến nhất -> mobile first - kỹ thuật)
+tức là tư duy làm giao diện nhỏ trước -> giao diện lớn hơn
++ để phù hợp nhất ước lượng -> theo định vị (break point) - dựa vào các điểm kích thước giao thoa giữa
+-> làm responsive
+
+-cú pháp media query -> truy xuất giao diện theo điều kiện
+
+tailwind css:
+- là 1 dạng external css (đã viết sẵn lgic, css _> dùng đúng)
+- sử dụng class để áp dụng style css
+
+==================
+
+để làm responsive cho tailwind 

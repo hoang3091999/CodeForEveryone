@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+.container{
+    width: 100%;
+    height: 800px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 60%;
+}
+.logo_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #646d72;
+    font-family: 'inter', sans-serif;
+}
+.logo_text h4{
+    font-weight: 400;
+}
+.logo_text img{
+    width: 30px;
+}
+.content h2{
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: 'plus jakarta sans', sans-serif;
+    font-weight: 600;
+}
+.option_bar{
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #F4F4F4;
+    border-radius: 40px;
+    padding: 5px;    
+}
+.option_bar button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    cursor: pointer;
+    background-color: #F4F4F4;
+    border-radius: 40px;
+    color: #1E2B33;
+    font-weight: 300;
+
+}
+.option_bar button:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.box_container{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    width: 23%;
+    height: 420px;
+    flex-direction: column;
+    line-height: 1.4;
+}
+.img_1{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.lesson_week{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+.lesson_week_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#h3_content{
+    font-size: 22px;
+    font-family: 'plus jakarta sans', sans-serif;
+    font-weight: 600;
+    color: #1E2B33;
+    box-sizing: border-box;
+    padding: 0 12px;
+    margin: 10px 0;
+}
+.fee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 12px;
+    
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.box h3{
+    font-size: 18px;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    color: #1E2B33;
+}
+.end_button{
+    display: flex;
+    width: 230px;
+    height: 55px;
+    background-color: #A4074D;
+    border-radius: 16px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+#arrow{
+    width: 20px;
+    height: 19px;
+}
