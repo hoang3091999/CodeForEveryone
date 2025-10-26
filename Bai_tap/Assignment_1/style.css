@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+.TimeAndIcon{
+    width: 375px;
+    height: 88px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.TimeAndIcon p{
+    margin: 0px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar button{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 18px;
+    border: 0px;
+    background-color: white;
+    font-size: 16px;
+    font-style: bold;
+}
+
+
+@media(min-width: 640px){
+
+}

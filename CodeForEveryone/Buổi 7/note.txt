@@ -1,0 +1,40 @@
+điều kiện - conditional
+=> giúp cho máy tính thực hiện các logic gì đó dựa vào điều kiện gì đó
+if - else
+=> Nếu (cái gì đó ) thì (làm gì đó), ngược lại thì (làm gì đó)
+
+=> Nếu trời mưa thì ở nhà, ngược lại thì ra ngoài
+
+trời mưa =  true => ở nhà
+false => ra ngoài
+
+====== 
+
+switch case -  cũng là một cấu trúc điều kiện
+giá trị so sánh phải là cụ thể
+chỉ so sánh bằng hoặc khác
+
+number = 5
+
+number === 5 không ?
+
+bằng hoặc khác
+
+=========
+
+Toán tử 3 ngôi 
+là 1 biểu thực dựa vào đk để trả ra 1 biểu thức (giá trị)
+
+=========
+Vòng lặp
+
+loop -> thể hiện tính chất lặp đi lặp lại của những hành động / code
+- những dòng code lặp đi lặp lại
+
+vòng lặp for
+nhận đầu vào 3 biểu thức, mỗi biểu thức cách nhau bằng ;
+vòng for cũng phải biểu diễn được số lệnh được thực thi
+
+for (khởi_tạo; điều_kiện; tăng/giảm) {
+  // Khối mã thực thi trong mỗi lần lặp
+}
