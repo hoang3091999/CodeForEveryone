@@ -9,6 +9,7 @@ console.log("🚀 ~ person:", person);
 //các bài toán làm việc với object
 //object lưu các thông tin key:value
 
+
 //read
 //cách 1 sử dụng dấu chấm
 console.log("🚀 ~ person:", person.age);
@@ -39,3 +40,11 @@ console.log("🚀 ~ person after delete:", person);
 
 // // trường hợp truy xuất một thuộc tính nào đó mà không được tính nghĩa từ interface sẽ bị lỗi
 // person.address // error
+
+//duyệt object
+for (let key in person) {
+    console.log(person[key]);
+}
+for (let key in person) {
+    console.log(key);
+}

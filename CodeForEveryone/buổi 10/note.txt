@@ -1,0 +1,4 @@
+đoạn code bị lặp đi lặp lại
+-> các giá trị bị fix cứng/ hard code - tức là các giá trị cố định trong chương trình
+=> sử dụng hàm để khái quát logic
+=> khi dùng hàm tức là đang thực thi logic đang được khái quát

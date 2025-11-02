@@ -47,3 +47,10 @@ for(i = 2 ; i <= n; i++){
     result = Math.sqrt(i+result);
 }
 console.log(result)
+
+const n1 = 5;
+result1 = Math.sqrt(n1);
+for (i = n1 - 1 ; i >= 1; i--){
+    result1 = Math.sqrt(i + result1);
+}
+console.log(result1)

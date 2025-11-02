@@ -1,0 +1,6 @@
+phương thức /chức năng - method ( được ứng dụng nhiều trong kỹ thuật OPP/lập trình đối tượng)
+======
+khi nói về phương thức -> cách học:
+
++hiểu được tính chất/kết quả
++hiểu được cách sử dụng
