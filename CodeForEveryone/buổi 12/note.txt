@@ -1,0 +1,15 @@
+Document Object Model -> mô hình hóa đối tượng tài liệu
+có ý nghĩa coi những thành phần của tài liệu HTML là đối tượng (object)
+
+?????
+làm thế nào để truy xuất các thẻ trong HTML
++ querySelector : sử dụng cú pháp css để truy xuất phần tử
+h1.mindx
+document.querySelector('h1.mindx')
+=> js sẽ lấy thẻ h1 của class mindx đầu tiên mà nó tìm thấy
+
++querySelectorAll : -> lấy tất cả
+
+//event
+sử dụng cú pháp truy cập sự kiện -> chỉ đinh sự kiện
+on + tên sự kiện
